@@ -43,9 +43,11 @@ const bot = new Discord.Client({disableEveryone: true})
 
 bot.on("ready", async () => {
 
+
+
 	console.log(`${bot.user.username} is ready!`);
 	
-	bot.user.setPresence({ status: 'online', game: { name: 'Hello World' } });
+	bot.user.setPresence({ status: 'online', game: { name: '!speak' } });
 
 
 
@@ -65,4 +67,38 @@ bot.on("ready", async () => {
 
 });
 
+bot.on("message", async message => {
+    
+    let messageArray = message.content.split(" ");
+
+    let command = messageArray[0];
+
+    let args = messageArray.slice(1);
+
+    
+    
+
+
+    
+
+
+        
+    
+    
+    if(message.author.bot) return;
+
+if(command === `${prefix}speak`){
+
+        message.channel.send(`Greetings, ${message.author}`);
+                 
+
+
+
+         return;
+
+
+
+    }
+
+});    
 bot.login(process.env.BOT_TOKEN);
