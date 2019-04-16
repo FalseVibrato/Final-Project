@@ -1,1 +1,1 @@
-worker: node finalproject.js
+worker: node FirstBot.js
