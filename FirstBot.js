@@ -126,7 +126,7 @@ if(command === `${prefix}speak`){
         var random = Math.floor(Math.random()*number);
 
         //Array of random quotes
-        var quote = ["Hey gang!", "It's professor, not teacher.", "This is your democracy at play.", "That sounds fun, let's do it.","Who's they?"]
+        var quote = ["Hey gang!", "It's professor, not teacher.", "This is your democracy at play.", "That sounds fun, let's do it.", "Who's they?"]
 
         //Put the text in the response here.
         message.channel.send(quote[random]);
