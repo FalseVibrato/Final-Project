@@ -158,9 +158,52 @@ if(command === `${prefix}speak`){
 
 
          return;
+ if(command === `${prefix}Bishop`){
+
+        //Number of random quotes minus 1
+        var number = 4;
+
+        //random variable
+        var random = Math.floor(Math.random()*number);
+
+        //Array of random quotes
+        var quote = ["The continued prevalence of analog film reels and projected slides in the mainstream art world seems to say less about revolutionary aesthetics than it does about commercial viability.", "Faced with the infinite resources of the Internet selection has emerged as a key operation: We build new files from existing components rather than creating from scratch." , "Yet another exampleWith the rise of the Web, writing has met its photography.",
+        //Put the text in the response here.
+        message.channel.send(quote[random]);
+                 
 
 
 
+         return;
+
+
+
+    }
+
+//Random Command
+    //Put your name of the command here.
+    if(command === `${prefix}student`){
+
+        //Number of random quotes minus 1
+        var number = 4;
+
+        //random variable
+        var random = Math.floor(Math.random()*number);
+
+        //Array of random quotes
+        var quote = ["I feel like I don't fully understand the program to...", "Sorry, I haven't gptten any sleep.", "My code isn't working.", "The computer doesn't like me.",]
+
+        //Put the text in the response here.
+        message.channel.send(quote[random]);
+                 
+
+
+
+         return;
+
+
+
+    }
     }
 });    
 bot.login(process.env.BOT_TOKEN);
