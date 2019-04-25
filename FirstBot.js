@@ -149,8 +149,7 @@ if(command === `${prefix}speak`){
         var random = Math.floor(Math.random()*number);
 
         //Array of random quotes
-        var quote = ["The spectator must be removed from the position of observer caJmly examining the spectacle offered to her.", 
-        "'Good' theatre is one that uses its eparated reality in order to abolish it.", "Intellectual emancipation is the verification of the equality of intelligence.", "Distance is not an evil to be abolished, but the normal condition of any communication","Even if the playwright or director doe not know what she wants the spectator to do ',' she at least knows one thing: she knows that she must do one thing - overcome the gulf separating activity from pa sivity. "]
+        var quote = ["The spectator must be removed from the position of observer caJmly examining the spectacle offered to her.", "'Good' theatre is one that uses its eparated reality in order to abolish it.", "Intellectual emancipation is the verification of the equality of intelligence.", "Distance is not an evil to be abolished, but the normal condition of any communication","Even if the playwright or director doe not know what she wants the spectator to do ',' she at least knows one thing: she knows that she must do one thing - overcome the gulf separating activity from pa sivity. "]
 
         //Put the text in the response here.
         message.channel.send(quote[random]);
