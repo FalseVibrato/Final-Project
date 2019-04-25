@@ -203,7 +203,6 @@ if(command === `${prefix}speak`){
 
 
 
-
     }
     }
 });    
