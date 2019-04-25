@@ -193,7 +193,7 @@ The quote bank being chosen by what was memorable to me and sharing it with my p
         var random = Math.floor(Math.random()*number);
 
         //Array of random quotes
-        var quote = ["I feel like I don't fully understand the program to...", "Sorry, I haven't gptten any sleep.", "My code isn't working.", "The computer doesn't like me.",]
+        var quote = ["I feel like I don't fully understand the program to...", "Sorry, I haven't gotten any sleep.", "My code isn't working.", "The computer doesn't like me.",]
 
         //Put the text in the response here.
         message.channel.send(quote[random]);
