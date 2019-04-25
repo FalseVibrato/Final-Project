@@ -105,7 +105,7 @@ if(command === `${prefix}speak`){
     if(command === `${prefix}AS`){
 
         //Put the text in the response here.
-        message.channel.send(`This work seeks to blah blah blah`);
+        message.channel.send(`This work is about exploring the premise of people's ability to retain vastly different things despite going through a shared experience. In the context of this project`);
                  
 
 
@@ -158,6 +158,7 @@ if(command === `${prefix}speak`){
 
 
          return;
+     }
  if(command === `${prefix}Bishop`){
 
         //Number of random quotes minus 1
@@ -205,5 +206,5 @@ if(command === `${prefix}speak`){
 
     }
     }
-});    
+);    
 bot.login(process.env.BOT_TOKEN);
