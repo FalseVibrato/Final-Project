@@ -105,7 +105,8 @@ if(command === `${prefix}speak`){
     if(command === `${prefix}AS`){
 
         //Put the text in the response here.
-        message.channel.send(`This work is about exploring the premise of people's ability to retain vastly different things despite going through a shared experience. In the context of this project`);
+        message.channel.send(`TThis work is about exploring the premise of people's ability to retain vastly different things despite going through a shared experience. In the context of this project, the target audience is a niche one consisting of my Programming for Artists class. The bot uses randomized quotes that have stuck out to me from various reading assignments, my professor, and my peers.  These quotes are prompted by my peers' user inputs that will provoke reflection over everyone's differing experiences to the shared subject matter and give insight into how the individual goes about retaining certain pieces of info over the other. 
+The quote bank being chosen by what was memorable to me and sharing it with my peers is my small entry into what will hopefully lead to a bigger discussion of what we will take out of the class. It marks a conclusive end to the semester as well as takes part in a large discussion of how what we all remember about the same experiences tells us about ourselves.`);
                  
 
 
