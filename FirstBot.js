@@ -102,7 +102,7 @@ if(command === `${prefix}speak`){
     }
 //Direct command
     //Put your name of the command here.
-    if(command === `${prefix}artist statement`){
+    if(command === `${prefix}AS`){
 
         //Put the text in the response here.
         message.channel.send(`This work seeks to blah blah blah`);
