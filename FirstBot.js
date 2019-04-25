@@ -86,6 +86,7 @@ bot.on("message", async message => {
     
     
     if(message.author.bot) return;
+    if(message.channel.type === "dm") return;
 
 if(command === `${prefix}speak`){
 
@@ -99,6 +100,44 @@ if(command === `${prefix}speak`){
 
 
     }
+//Direct command
+    //Put your name of the command here.
+    if(command === `${prefix}artist statement`){
 
+        //Put the text in the response here.
+        message.channel.send(`This work seeks to blah blah blah`);
+                 
+
+
+
+         return;
+
+
+
+    }
+    //Random Command
+    //Put your name of the command here.
+    if(command === `${prefix}professor`){
+
+        //Number of random quotes minus 1
+        var number = 4;
+
+        //random variable
+        var random = Math.floor(Math.random()*number);
+
+        //Array of random quotes
+        var quote = ["I like toast", "Gravy is good", "But why tho?", "Do you like to sing with tomatos","Vegetales is a good show"]
+
+        //Put the text in the response here.
+        message.channel.send(quote[random]);
+                 
+
+
+
+         return;
+
+
+
+    }
 });    
 bot.login(process.env.BOT_TOKEN);
